@@ -1,0 +1,102 @@
+body{
+	margin: 0px; /*Margin used in h1 below will not make any changes as browsers set their default margins as defined in body*/
+}
+
+.container{
+	display:flex; /* Defines and activates a flexbox property type such as TRANSITION and TRANSFORM*/
+	flex-wrap: wrap; /* Describes how content or images should align/appear on page*/ 
+	justify-content: center;
+}
+
+.btn-danger{
+	color:white;
+	background-color: green;
+}
+	
+
+p{
+	text-transform: uppercase;  /* Transforms text to upper of lower case*/
+	text-decoration: underline; /* Decorates text with underline or in-line*/
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 2em;
+	border: 5px dashed red; /* Creates border only at bottom of text*/
+	/*border-right: 5px solid pink;*/ /* Creates border only to right side of text*/
+	width: 300px;
+	text-align: center;
+	/*box-shadow: 4px 4px 4px blue;*/
+	margin-top: 10px;
+	-moz-box-shadow: 4px 4px 4px blue; /* Prefix used to enable browsers support the "box-shadow property in older versions
+	-ms-box-shadow: 4px 4px 4px blue;
+	-webkit-box-shadow: 4px 4px 4px blue;
+	-o-box-shadow: 4px 4px 4px blue;*/
+}
+img{
+	height:300px;
+	width:450px;
+	float:right;/*This floats images to the right or left*/
+	margin:20px;
+	border: 15px;
+	padding-right: 20px 20px 20px 10px;
+	transition: all 2s ease-out 1s;
+	/*transition: all 1s;*/
+	}
+		
+img:hover{
+	transform: scale(1.1);
+
+}
+footer{
+	clear:both; 
+	text-align:center;
+	color:red;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+/*Selector{
+	property:value;
+}
+
+body{
+	/*background-image:url(background1.jpg);
+	background-color:orange;
+	/*background-size: cover;
+}
+h2 + p:hover{
+	color:red;
+	text-align:center;
+	border: 5px dashed black;
+	cursor:pointer;
+}
+
+h2{
+	color:red;
+}
+
+p{
+	color:pink /*!important;	
+}
+
+p{
+	color:black;
+}
+p{
+	color:white;
+}
+
+#div1{
+	text-transform: uppercase;
+	/*text-decoration: underline;
+	color:white;
+}
+#p1{
+	color:red;
+}
